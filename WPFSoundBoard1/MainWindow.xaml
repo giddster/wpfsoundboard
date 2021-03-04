@@ -10,7 +10,7 @@
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="371*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="sound1Button" Content="Sound 1" HorizontalAlignment="Left" Margin="56,30,0,0" VerticalAlignment="Top" Width="74" Height="71" BorderBrush="#FFA6A6A6" Background="#FFE27B7B" Click="sound1Button_Click"/>
+        <Button x:Name="sound1Button" Content="Sound 1" HorizontalAlignment="Left" Margin="56,30,0,0" VerticalAlignment="Top" Width="74" Height="71" BorderBrush="#FFA6A6A6" Background="#FFE27B7B"/>
         <Button x:Name="sound2Button" Content="Sound 2" HorizontalAlignment="Left" Margin="149,30,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF76A8FF"/>
         <Button x:Name="sound3Button" Content="Sound 3" HorizontalAlignment="Left" Margin="244,30,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF91E098"/>
         <Button x:Name="sound4Button" Content="Sound 4" HorizontalAlignment="Left" Margin="338,30,0,0" VerticalAlignment="Top" Width="73" Height="71" Background="#FFDDF736"/>
@@ -31,7 +31,7 @@
         <Button x:Name="resetButtonsToDefaultButton" Content="Reset buttons to default" HorizontalAlignment="Left" Margin="444,109,0,0" VerticalAlignment="Top" Width="135" Height="37"/>
         <Button x:Name="loopLastSoundButton" Content="Loop last" HorizontalAlignment="Left" Height="70" Margin="538,306,0,0" VerticalAlignment="Top" Width="70" Background="Green"/>
         <Button x:Name="stopAllButton" Content="STOP ALL" HorizontalAlignment="Left" Height="70" Margin="622,306,0,0" VerticalAlignment="Top" Width="70" Background="Red" FontWeight="Bold"/>
-        <Button x:Name="exitButton" Content="Exit" FontWeight="Medium" HorizontalAlignment="Left" Height="70" Margin="703,306,0,0" VerticalAlignment="Top" Width="70" Click="exitButton_Click" />
+        <Button x:Name="exitButton" Content="Exit" FontWeight="Medium" HorizontalAlignment="Left" Height="70" Margin="703,306,0,0" VerticalAlignment="Top" Width="70"/>
         <ProgressBar x:Name="leftVolumeBar" HorizontalAlignment="Left" Height="22" Margin="601,151,-85,0" VerticalAlignment="Top" Width="276" RenderTransformOrigin="0.5,0.5" BorderThickness="2" BorderBrush="Gray">
             <ProgressBar.RenderTransform>
                 <TransformGroup>
