@@ -23,6 +23,8 @@ namespace WPFSoundBoard1
         public MainWindow()
         {
             InitializeComponent();
+            var buttonList = new List<Button>();
+
         }
     }
 }
