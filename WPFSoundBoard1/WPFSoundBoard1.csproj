@@ -101,7 +101,14 @@
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
+    <Content Include="Default Sounds\Burp.wav" />
+    <Content Include="Default Sounds\Droplet.wav" />
+    <Content Include="Default Sounds\Giggle.wav" />
+    <Content Include="Default Sounds\MouthHarp.wav" />
     <Content Include="Default Sounds\Rimshot.wav" />
+    <Content Include="Default Sounds\DogBark.wav" />
+    <Content Include="Default Sounds\Sword.wav" />
+    <Content Include="Default Sounds\ToiletFlush.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
