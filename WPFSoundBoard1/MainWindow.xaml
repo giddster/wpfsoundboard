@@ -8,30 +8,31 @@
         Title="The WPF Soundboard" Height="450" Width="800">
     <Grid>
         <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="371*"/>
+            <ColumnDefinition Width="*"/>
         </Grid.ColumnDefinitions>
-        <Button x:Name="sound1Button" Content="Sound 1" HorizontalAlignment="Left" Margin="56,30,0,0" VerticalAlignment="Top" Width="74" Height="71" BorderBrush="#FFA6A6A6" Background="#FFE27B7B"/>
-        <Button x:Name="sound2Button" Content="Sound 2" HorizontalAlignment="Left" Margin="149,30,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF76A8FF"/>
-        <Button x:Name="sound3Button" Content="Sound 3" HorizontalAlignment="Left" Margin="244,30,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF91E098"/>
-        <Button x:Name="sound4Button" Content="Sound 4" HorizontalAlignment="Left" Margin="338,30,0,0" VerticalAlignment="Top" Width="73" Height="71" Background="#FFDDF736"/>
-        <Button x:Name="sound5Button" Content="Sound 5" HorizontalAlignment="Left" Margin="56,125,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FFEA9B59"/>
-        <Button x:Name="sound6Button" Content="Sound 6" HorizontalAlignment="Left" Margin="149,125,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FF6DCDA1"/>
-        <Button x:Name="sound7Button" Content="Sound 7" HorizontalAlignment="Left" Margin="244,125,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FFF7D22A"/>
-        <Button x:Name="sound8Button" Content="Sound 8" HorizontalAlignment="Left" Margin="338,125,0,0" VerticalAlignment="Top" Width="73" Height="70" Background="#FFF593FF"/>
-        <Button x:Name="sound9Button" Content="Sound 9" HorizontalAlignment="Left" Margin="56,220,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF8D88FF"/>
-        <Button x:Name="sound10Button" Content="Sound 10" HorizontalAlignment="Left" Margin="149,220,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FFFDE91C"/>
-        <Button x:Name="sound11Button" Content="Sound 11" HorizontalAlignment="Left" Margin="244,220,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FFFF3753"/>
-        <Button x:Name="sound12Button" Content="Sound 12" HorizontalAlignment="Left" Margin="338,220,0,0" VerticalAlignment="Top" Width="73" Height="71" Background="#FF92DA71"/>
-        <Button x:Name="sound13Button" Content="Sound 13" HorizontalAlignment="Left" Margin="56,314,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FFDA8A29"/>
-        <Button x:Name="sound14Button" Content="Sound 14" HorizontalAlignment="Left" Margin="149,314,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF22E022"/>
-        <Button x:Name="sound15Button" Content="Sound 15" HorizontalAlignment="Left" Margin="244,314,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FFBB7849"/>
-        <Button x:Name="sound16Button" Content="Sound 16" HorizontalAlignment="Left" Margin="338,314,0,0" VerticalAlignment="Top" Width="74" Height="71" Background="#FF8CE5EE"/>
+        <Button x:Name="sound1Button" Content="Sound 1" HorizontalAlignment="Left" Margin="56,30,0,0" VerticalAlignment="Top"     Width="74" Height="70" BorderBrush="#FFA6A6A6" Background="#FFE27B7B"/>
+        <Button x:Name="sound2Button" Content="Sound 2" HorizontalAlignment="Left" Margin="149,30,0,0" VerticalAlignment="Top"    Width="74" Height="70" Background="#FF76A8FF"/>
+        <Button x:Name="sound3Button" Content="Sound 3" HorizontalAlignment="Left" Margin="244,30,0,0" VerticalAlignment="Top"    Width="74" Height="70" Background="#FF91E098"/>
+        <Button x:Name="sound4Button" Content="Sound 4" HorizontalAlignment="Left" Margin="338,30,0,0" VerticalAlignment="Top"    Width="74" Height="70" Background="#FFDDF736"/>
+        <Button x:Name="sound5Button" Content="Sound 5" HorizontalAlignment="Left" Margin="56,125,0,0" VerticalAlignment="Top"    Width="74" Height="70" Background="#FFEA9B59"/>
+        <Button x:Name="sound6Button" Content="Sound 6" HorizontalAlignment="Left" Margin="149,125,0,0" VerticalAlignment="Top"   Width="74" Height="70" Background="#FF6DCDA1"/>
+        <Button x:Name="sound7Button" Content="Sound 7" HorizontalAlignment="Left" Margin="244,125,0,0" VerticalAlignment="Top"   Width="74" Height="70" Background="#FFF7D22A"/>
+        <Button x:Name="sound8Button" Content="Sound 8" HorizontalAlignment="Left" Margin="338,125,0,0" VerticalAlignment="Top"   Width="74" Height="70" Background="#FFF593FF"/>
+        <Button x:Name="sound9Button" Content="Sound 9" HorizontalAlignment="Left" Margin="56,220,0,0" VerticalAlignment="Top"    Width="74" Height="70" Background="#FF8D88FF"/>
+        <Button x:Name="sound10Button" Content="Sound 10" HorizontalAlignment="Left" Margin="149,220,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FFFDE91C"/>
+        <Button x:Name="sound11Button" Content="Sound 11" HorizontalAlignment="Left" Margin="244,220,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FFFF3753"/>
+        <Button x:Name="sound12Button" Content="Sound 12" HorizontalAlignment="Left" Margin="338,220,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FF92DA71"/>
+        <Button x:Name="sound13Button" Content="Sound 13" HorizontalAlignment="Left" Margin="56,314,0,0" VerticalAlignment="Top"  Width="74" Height="70" Background="#FFDA8A29"/>
+        <Button x:Name="sound14Button" Content="Sound 14" HorizontalAlignment="Left" Margin="149,314,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FF22E022"/>
+        <Button x:Name="sound15Button" Content="Sound 15" HorizontalAlignment="Left" Margin="244,314,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FFBB7849"/>
+        <Button x:Name="sound16Button" Content="Sound 16" HorizontalAlignment="Left" Margin="338,314,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FF8CE5EE"/>
         <Button x:Name="addCustomSoundsButton" Content="Add custom sounds" HorizontalAlignment="Left" Margin="444,29,0,0" VerticalAlignment="Top" Width="135" Height="37"/>
         <Button x:Name="resetButtonsToDefaultButton" Content="Reset to default sounds" HorizontalAlignment="Left" Margin="444,73,0,0" VerticalAlignment="Top" Width="135" Height="37"/>
         <Button x:Name="playLastSoundButton" Content="Play last" HorizontalAlignment="Left" Height="70" Margin="538,306,0,0" VerticalAlignment="Top" Width="70" Background="Green"/>
         <Button x:Name="stopAllButton" Content="STOP" HorizontalAlignment="Left" Height="70" Margin="622,306,0,0" VerticalAlignment="Top" Width="70" Background="Red" FontWeight="Bold"/>
         <Button x:Name="exitButton" Content="Exit" FontWeight="Medium" HorizontalAlignment="Left" Height="70" Margin="703,306,0,0" VerticalAlignment="Top" Width="70"/>
-        <ProgressBar x:Name="leftVolumeBar" HorizontalAlignment="Left" Height="22" Margin="601,151,-85,0" VerticalAlignment="Top" Width="276" RenderTransformOrigin="0.5,0.5" BorderThickness="2" BorderBrush="Gray">
+
+        <ProgressBar x:Name="volumeBar" HorizontalAlignment="Left" Height="44" Margin="612,140,-96,0" VerticalAlignment="Top" Width="276" RenderTransformOrigin="0.5,0.5" BorderThickness="2" BorderBrush="Gray">
             <ProgressBar.RenderTransform>
                 <TransformGroup>
                     <ScaleTransform/>
@@ -40,19 +41,8 @@
                     <TranslateTransform/>
                 </TransformGroup>
             </ProgressBar.RenderTransform>
-
         </ProgressBar>
-        <ProgressBar x:Name="rightVolumeBar" HorizontalAlignment="Left" Height="22" Margin="625,151,-109,0" VerticalAlignment="Top" Width="276" RenderTransformOrigin="0.5,0.5" BorderThickness="2" BorderBrush="Gray">
-            <ProgressBar.RenderTransform>
-                <TransformGroup>
-                    <ScaleTransform/>
-                    <SkewTransform/>
-                    <RotateTransform Angle="-90"/>
-                    <TranslateTransform/>
-                </TransformGroup>
-            </ProgressBar.RenderTransform>
 
-        </ProgressBar>
         <Slider Name="MasterVolume" HorizontalAlignment="Left" Margin="622,383,0,0" VerticalAlignment="Top" Width="159"/>
         <Image x:Name="volumeIcon" HorizontalAlignment="Left" Height="22" Margin="595,383,0,0" VerticalAlignment="Top" Width="22" Source="Images/volume icon.png">
             <Image.OpacityMask>
@@ -61,4 +51,5 @@
         </Image>
 
     </Grid>
+
 </Window>
