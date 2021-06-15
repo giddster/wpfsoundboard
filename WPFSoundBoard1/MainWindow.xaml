@@ -27,7 +27,7 @@
         <Button x:Name="sound15Button" Content="Sound 15" HorizontalAlignment="Left" Margin="244,314,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FFBB7849"/>
         <Button x:Name="sound16Button" Content="Sound 16" HorizontalAlignment="Left" Margin="338,314,0,0" VerticalAlignment="Top" Width="74" Height="70" Background="#FF8CE5EE"/>
         <Button x:Name="addCustomSoundsButton" Content="Add custom sounds" HorizontalAlignment="Left" Margin="444,29,0,0" VerticalAlignment="Top" Width="135" Height="37"/>
-        <Button x:Name="resetButtonsToDefaultButton" Content="Reset to default sounds" HorizontalAlignment="Left" Margin="444,73,0,0" VerticalAlignment="Top" Width="135" Height="37"/>
+        <Button x:Name="resetButtonsToDefaultButton" Content="Reset default sounds" HorizontalAlignment="Left" Margin="444,73,0,0" VerticalAlignment="Top" Width="135" Height="37"/>
         <Button x:Name="playLastSoundButton" Content="Play last" HorizontalAlignment="Left" Height="70" Margin="538,306,0,0" VerticalAlignment="Top" Width="70" Background="Green"/>
         <Button x:Name="stopAllButton" Content="STOP" HorizontalAlignment="Left" Height="70" Margin="622,306,0,0" VerticalAlignment="Top" Width="70" Background="Red" FontWeight="Bold"/>
         <Button x:Name="exitButton" Content="Exit" FontWeight="Medium" HorizontalAlignment="Left" Height="70" Margin="703,306,0,0" VerticalAlignment="Top" Width="70"/>
